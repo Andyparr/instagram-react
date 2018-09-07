@@ -1,0 +1,60 @@
+{
+  "name": "@instagram/web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "start:https": "HTTPS=true react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "type-check": "tsc --noEmit",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">0.25%",
+      "not op_mini all",
+      "ie 11"
+    ]
+  },
+  "dependencies": {
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.0-next.3e165448"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@storybook/addon-actions": "^4.0.0-alpha.20",
+    "@storybook/addon-links": "^4.0.0-alpha.20",
+    "@storybook/addons": "^4.0.0-alpha.20",
+    "@storybook/react": "^4.0.0-alpha.20",
+    "@types/enzyme": "^3.1.13",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/jest": "^23.3.1",
+    "@types/react": "^16.4.13",
+    "@types/react-dom": "^16.0.7",
+    "@types/react-router-dom": "^4.3.0",
+    "@types/storybook__addon-actions": "^3.4.1",
+    "@types/storybook__addon-links": "^3.3.2",
+    "@types/storybook__react": "^3.0.9",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.0-beta.6",
+    "babel-runtime": "^6.26.0",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "jest-enzyme": "^6.0.4",
+    "react-test-renderer": "^16.5.0",
+    "ts-loader": "^5.0.0",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.0.3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "defaultSeverity": "warning",
+  "extends": ["tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": ["node_modules/**", "build/**"]
+  },
+  "jsRules": {
+    "curly": true,
+    "no-console": false
+  },
+  "rules": {
+    "curly": true,
+    "no-console": false,
+    "member-access": false
+  },
+  "rulesDirectory": []
+}
