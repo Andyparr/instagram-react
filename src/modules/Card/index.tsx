@@ -24,8 +24,7 @@ export default class Card extends React.PureComponent<Props> {
                     borderRadius: 50,
                     height: 50,
                     width: 50,
-                    margin: 'auto',
-                    padding: 10
+                    margin: '10px 10px 0 10px'
                   }}
                   src={this.props.profileImage}
                 />

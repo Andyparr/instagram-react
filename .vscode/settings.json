@@ -47,5 +47,6 @@
   "gitlens.codeLens.recentChange.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.preferences.quoteStyle": "single",
-  "typescript.preferences.quoteStyle": "single"
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
